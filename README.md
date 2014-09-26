@@ -1,4 +1,4 @@
-apidhr
+Apidhr
 ======
 
 **Registering for an API Key**
