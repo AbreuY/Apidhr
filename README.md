@@ -14,7 +14,7 @@ To use the API in your PHP application, you have to send a GET request through *
 See the this example using **file_get_contents**.
 
 ```php
-<?php
+
   // Using JSON Response
   $api_url="http://dhr.me/short/api?api=APIKEY&url=THELONGURLTOBESHORTENED&custom=CUSTOMALIAS";
   $res= @json_decode(file_get_contents($api_url),TRUE);
@@ -30,6 +30,6 @@ See the this example using **file_get_contents**.
   if($res){
     echo $res;
   }
-?>
+
 ```
 
